@@ -1,0 +1,120 @@
+1.customerlogin
+cid  uname   pass
+701    jai     123
+702    adi     873
+703    arav    983
+704    hari    638
+
+
+2.customerdetails
+cid    name            phnum
+701    jayaprakash     2429842947
+702    adithya         8732373479
+703    aravind         9894734928
+704    hariprasath     6894779338
+
+
+3.busdetails
+bno   buscapacity   type           travelsid
+401    35           AC dulex       341
+402    45           sleeper AC     342
+403    46           semi sleeper   343
+404    40           AC             344
+
+4.travelsdetails
+
+travelsid  travelname   phnum      address  
+341        balaji       38739843   xxx
+342        solomon      23874949   yyy
+343        tkt          47347494   xxx
+344        flyhigh      43434834   yyy
+
+
+
+5.routedetails
+route   from         to          distance
+90      chennai     bangalore      530
+91      bangalore   chennai        530
+50      kanyakumari chennai        435
+51      chennai     kanyakumari    435
+
+
+6.keyroute
+Keyid   bno  route
+909     401  90
+910     401  91
+911     402  50
+912     402  51
+913     403  90
+914     403  91
+915     404  50
+916     404  51
+
+
+7.bookingdetails
+bookid  cid  passengername seatno  age gender  date
+9701    702  ananya        18      23  female  04-10-2018
+9702    702  dhivya        19      21  female  04-10-2018
+9703    703  jai           30      20  male    04-10-2018
+9704    703  priya         31      21  male    04-10-2018
+
+
+8.citydetails
+stopid  stopcity
+35      chennai
+36      tambaram
+37      chengalpattu
+38      nellore
+39      mysore
+40      kadapa
+41      madurai
+42      thirunalveli
+43      kanyakumari
+44      bangalore
+45      thirupadhi
+
+9.stopsdetails
+route stopid
+90    35
+90    38
+90    40
+90    44
+
+
+10.fromtodetails
+bookid     route    stopidin  stopidout
+9701       90        35         44
+9702       90        35         44
+9703       90        38         44
+9704       90        35         40
+
+11.bookingstatus
+bookid       status
+9701         booked
+9702         booked
+9703         canceled
+9704         booked
+
+
+12.paymentdetails
+
+payid    cid     amount    date          receiptnum
+816      702     720       02-10-2018    469526
+652      703     540       03-10-2018    156161
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
